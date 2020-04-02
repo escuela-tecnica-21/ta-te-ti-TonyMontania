@@ -299,7 +299,7 @@ int VictoriaJugador()
               if(strcmp(tablero[0][0],"X")==0 && strcmp(tablero[0][1],"X")==0 && strcmp(tablero[0][2],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -308,7 +308,7 @@ int VictoriaJugador()
               if(strcmp(tablero[1][0],"X")==0 && strcmp(tablero[1][1],"X")==0 && strcmp(tablero[1][2],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -317,7 +317,7 @@ int VictoriaJugador()
               if(strcmp(tablero[2][0],"X")==0 && strcmp(tablero[2][1],"X")==0 && strcmp(tablero[2][2],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -326,7 +326,7 @@ int VictoriaJugador()
               if(strcmp(tablero[0][0],"X")==0 && strcmp(tablero[1][0],"X")==0 && strcmp(tablero[2][0],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -335,7 +335,7 @@ int VictoriaJugador()
               if(strcmp(tablero[0][1],"X")==0 && strcmp(tablero[1][1],"X")==0 && strcmp(tablero[2][1],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -344,7 +344,7 @@ int VictoriaJugador()
               if(strcmp(tablero[0][2],"X")==0 && strcmp(tablero[1][2],"X")==0 && strcmp(tablero[2][2],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -353,7 +353,7 @@ int VictoriaJugador()
               if(strcmp(tablero[0][0],"X")==0 && strcmp(tablero[1][1],"X")==0 && strcmp(tablero[2][2],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -362,7 +362,7 @@ int VictoriaJugador()
               if(strcmp(tablero[0][2],"X")==0 && strcmp(tablero[1][1],"X")==0 && strcmp(tablero[2][0],"X")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó Jugador 1!!\n");
+                  printf("GanÃ³ Jugador 1!!\n");
                   Victoria=1;
               }
           }
@@ -376,7 +376,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[0][0],"O")==0 && strcmp(tablero[0][1],"O")==0 && strcmp(tablero[0][2],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -385,7 +385,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[1][0],"O")==0 && strcmp(tablero[1][1],"O")==0 && strcmp(tablero[1][2],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -394,7 +394,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[2][0],"O")==0 && strcmp(tablero[2][1],"O")==0 && strcmp(tablero[2][2],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -403,7 +403,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[0][0],"O")==0 && strcmp(tablero[1][0],"O")==0 && strcmp(tablero[2][0],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -412,7 +412,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[0][1],"O")==0 && strcmp(tablero[1][1],"O")==0 && strcmp(tablero[2][1],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -421,7 +421,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[0][2],"O")==0 && strcmp(tablero[1][2],"O")==0 && strcmp(tablero[2][2],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -430,7 +430,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[0][0],"O")==0 && strcmp(tablero[1][1],"O")==0 && strcmp(tablero[2][2],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
@@ -439,7 +439,7 @@ int VictoriaMaquina()
               if(strcmp(tablero[0][2],"O")==0 && strcmp(tablero[1][1],"O")==0 && strcmp(tablero[2][0],"O")==0)
               {
                   gotoxy(1,13);
-                  printf("Ganó la Maquina\n");
+                  printf("GanÃ³ la Maquina\n");
                   Victoria=1;
               }
           }
