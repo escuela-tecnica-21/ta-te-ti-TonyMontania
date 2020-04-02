@@ -58,7 +58,8 @@ int main()
     {
         break;
     }
-    }
+    } 
+    // Aca llame a todas las funciones para que funcione el juego
     AtaqueMaquina();
     DefenderMaquina();
     RandomMaquina();
@@ -66,7 +67,7 @@ int main()
     MostrarTablero();
     return 0;
 }
-int jugadaX(int posicion)
+int jugadaX(int posicion) // Esta funcion sirve para que pueda verificar que la X este en un lugar valido
 {
     if (posicion>=4 && posicion<7)
        {
@@ -87,7 +88,7 @@ int jugadaX(int posicion)
     return 1;
 }
 
-int jugadaO(int posicion)
+int jugadaO(int posicion) // Esta funcion sirve para que pueda verificar que la O este en un lugar valido
 {
     int fila=0, columna=0;
        if (posicion>=4 && posicion<7)
@@ -109,7 +110,7 @@ int jugadaO(int posicion)
     return 1;
 }
 
-int antirellenar(int posicion)
+int antirellenar(int posicion) // Esta funcion sirve para mostrar el tablero vacio
 {
       if (posicion>=4 && posicion<7)
        {
@@ -136,7 +137,7 @@ int antirellenar(int posicion)
     return 1;
 }
 
-int AtaqueMaquina()
+int AtaqueMaquina() // Esta funcion muestra las posibles victorias de la maquina
 {
     int x=0;
     for(x=0;x<3;x++)
@@ -207,7 +208,7 @@ int AtaqueMaquina()
     }
 }
 
-int DefenderMaquina()
+int DefenderMaquina() // Funcion para que cuando se le de la oportunidad a la maquina que bloquee
 {
     int x=0;
     for(x=0;x<3;x++)
@@ -278,12 +279,12 @@ int DefenderMaquina()
     }
 }
 
-int RandomMaquina()
+int RandomMaquina() // Esta funcion sirve para que el bot tire un numero random en cualquiera de las 9 posiciones del tablero
 {
     bot=rand()% (9-1+1)+1;
 }
 
-int MostrarTablero()
+int MostrarTablero() // En esta funcion muestra el tablero default
 {
     printf("  %s   %c   %s   %c   %s\n",tablero[0][0],179,tablero[0][1],179,tablero[0][2]);
     printf("%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c\n",196,196,196,196,196,196,197,196,196,196,196,196,196,196,197,196,196,196,196,196,196);
@@ -292,7 +293,7 @@ int MostrarTablero()
     printf("  %s   %c   %s   %c   %s\n",tablero[2][0],179,tablero[2][1],179,tablero[2][2]);
 }
 
-int VictoriaJugador()
+int VictoriaJugador() // Aca es la funcion donde se verifica la victoria del jugador 1
 {
     if(strcmp(tablero[0][0],tablero[0][1])==0 && strcmp(tablero[0][1],tablero[0][2])==0)
           {
@@ -369,7 +370,7 @@ int VictoriaJugador()
           return 0;
 }
 
-int VictoriaMaquina()
+int VictoriaMaquina() // Esta funcion sirve para que verifique si la maquina gano
 {
     if(strcmp(tablero[0][0],tablero[0][1])==0 && strcmp(tablero[0][1],tablero[0][2])==0)
           {
